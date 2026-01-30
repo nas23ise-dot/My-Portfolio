@@ -28,7 +28,7 @@ const Home = () => {
                     }}
                 >
                     <img
-                        src="/profile.jpg"
+                        src={`${import.meta.env.BASE_URL}profile.jpg`}
                         alt="Naveen S"
                         style={{
                             width: '100%',
