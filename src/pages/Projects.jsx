@@ -10,13 +10,7 @@ const Projects = () => {
             github: "https://github.com/nas23ise-dot/InternAI",
             live: "https://ai-internship-frontend.onrender.com"
         },
-        {
-            title: "🎨 My Portfolio – Personal Website",
-            description: "A modern, responsive portfolio website built to showcase my projects and skills. Features smooth animations, dark mode, and a clean user interface.",
-            tech: ["React", "Framer Motion", "Vite", "React Router"],
-            github: "https://github.com/nas23ise-dot/My-Portfolio",
-            live: null
-        },
+
         {
             title: "🪙 Gold Shopy – Digital Gold Management",
             description: "A full-stack web application that enables users to buy, sell, and manage digital gold with real-time tracking. Features a seamless customer experience and powerful admin panel for shop owners.",
