@@ -19,9 +19,10 @@ const Home = () => {
                     initial={{ scale: 0, opacity: 0 }}
                     animate={{ scale: 1, opacity: 1 }}
                     transition={{ duration: 0.8, delay: 0.2 }}
+                    className="hero-avatar"
                     style={{
-                        width: '180px',
-                        height: '180px',
+                        width: 'clamp(120px, 30vw, 180px)',
+                        height: 'clamp(120px, 30vw, 180px)',
                         margin: '0 auto 2rem',
                         position: 'relative',
                         animation: 'pulse-glow 3s ease-in-out infinite'
@@ -48,7 +49,7 @@ const Home = () => {
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.4 }}
-                    style={{ fontSize: '3rem', fontWeight: 800, marginBottom: '0.5rem' }}
+                    style={{ fontSize: 'clamp(2rem, 8vw, 3rem)', fontWeight: 800, marginBottom: '0.5rem' }}
                 >
                     Naveen S
                 </motion.h1>
@@ -58,9 +59,9 @@ const Home = () => {
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.5 }}
-                    style={{ fontSize: '1.3rem', fontWeight: 400, color: 'var(--text-secondary)', marginBottom: '1rem' }}
+                    style={{ fontSize: 'clamp(0.9rem, 3vw, 1.3rem)', fontWeight: 400, color: 'var(--text-secondary)', marginBottom: '1rem' }}
                 >
-                    Student at <span style={{ color: 'var(--accent-primary)' }}>CMR Institute Of Technology</span> | Full Stack Developer
+                    Student at <span style={{ color: 'var(--accent-primary)' }}>CMRIT</span> | Full Stack Developer
                 </motion.h2>
 
                 {/* Tech Stack */}

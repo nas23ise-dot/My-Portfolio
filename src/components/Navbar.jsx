@@ -35,7 +35,7 @@ const Navbar = () => {
             padding: '1rem 2rem'
         }}>
             <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: 0 }}>
-                <NavLink to="/" style={{ fontSize: '1.5rem', fontWeight: 700, letterSpacing: '-0.5px' }}>
+                <NavLink to="/" className="nav-logo" style={{ fontSize: '1.5rem', fontWeight: 700, letterSpacing: '-0.5px' }}>
                     Naveen<span className="gradient-text">.S</span>
                 </NavLink>
 
@@ -97,7 +97,7 @@ const Navbar = () => {
                             borderBottom: '1px solid rgba(255,255,255,0.1)'
                         }}
                     >
-                        <ul style={{ padding: '1rem 2rem', display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+                        <ul className="mobile-menu-list" style={{ padding: '1rem 2rem', display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
                             {links.map((link) => (
                                 <li key={link.name}>
                                     <NavLink
@@ -116,11 +116,61 @@ const Navbar = () => {
                 )}
             </AnimatePresence>
             <style>{`
+        .navbar {
+            padding: 0.75rem 1rem !important;
+        }
+        .navbar .nav-logo {
+            font-size: 1.2rem !important;
+        }
         .desktop-menu { display: none; }
-        .mobile-toggle { display: block; }
+        .mobile-toggle { 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            border-radius: 8px;
+            transition: background 0.3s;
+        }
+        .mobile-toggle:active {
+            background: rgba(139, 92, 246, 0.2);
+        }
+        .mobile-menu-list {
+            padding: 0.75rem 1rem !important;
+        }
+        .mobile-menu-list li {
+            padding: 0.75rem 0;
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+        }
+        .mobile-menu-list li:last-child {
+            border-bottom: none;
+        }
+        .mobile-menu-list a {
+            display: block;
+            padding: 0.5rem 0;
+        }
         @media (min-width: 768px) {
+            .navbar {
+                padding: 1rem 2rem !important;
+            }
+            .navbar .nav-logo {
+                font-size: 1.5rem !important;
+            }
             .desktop-menu { display: flex; }
             .mobile-toggle { display: none; }
+        }
+        @media (max-width: 360px) {
+            .navbar {
+                padding: 0.6rem 0.75rem !important;
+            }
+            .navbar .nav-logo {
+                font-size: 1.1rem !important;
+            }
+            .mobile-toggle {
+                width: 36px;
+                height: 36px;
+                font-size: 1.2rem !important;
+            }
         }
       `}</style>
         </nav>
