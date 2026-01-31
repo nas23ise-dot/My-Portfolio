@@ -1,26 +1,20 @@
 import { motion } from 'framer-motion'
-import { FaGithub, FaLinkedin, FaEnvelope, FaPhone, FaMapMarkerAlt } from 'react-icons/fa'
+import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa'
 import { SiLeetcode } from 'react-icons/si'
 
 const Contact = () => {
     const contactInfo = [
         {
-            icon: <FaMapMarkerAlt />,
-            label: "Location",
-            value: "HSR Layout, Bengaluru, Karnataka",
-            link: "https://maps.google.com/?q=HSR+Layout+Bengaluru"
+            icon: <FaGithub />,
+            label: "GitHub",
+            value: "nas23ise-dot",
+            link: "https://github.com/nas23ise-dot"
         },
         {
-            icon: <FaPhone />,
-            label: "Phone",
-            value: "+91 8971557328",
-            link: "tel:+918971557328"
-        },
-        {
-            icon: <FaEnvelope />,
-            label: "Email",
-            value: "huesh180@gmail.com",
-            link: "https://mail.google.com/mail/?view=cm&fs=1&to=huesh180@gmail.com"
+            icon: <FaLinkedin />,
+            label: "LinkedIn",
+            value: "Naveen S",
+            link: "https://www.linkedin.com/in/naveen-s-b77a03343/"
         }
     ]
 
