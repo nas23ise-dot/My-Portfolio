@@ -53,7 +53,7 @@ const Navbar = () => {
                     </NavLink>
 
                     {/* Desktop Menu */}
-                    <ul className="desktop-menu" style={{ display: 'flex', gap: '2rem', alignItems: 'center' }}>
+                    <ul className="desktop-menu" style={{ gap: '2rem', alignItems: 'center' }}>
                         {links.map((link) => (
                             <li key={link.name} style={{ position: 'relative' }}>
                                 <NavLink
