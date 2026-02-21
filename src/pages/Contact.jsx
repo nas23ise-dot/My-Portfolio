@@ -8,7 +8,7 @@ const Contact = () => {
             icon: <FaGithub />,
             label: "GitHub",
             value: "nas23ise-dot",
-            link: "https://github.com/nas23ise-dot"
+            link: "https://navdevs.github.io/My-Portfolio/"
         },
         {
             icon: <FaLinkedin />,
