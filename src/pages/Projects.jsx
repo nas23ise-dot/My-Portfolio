@@ -4,6 +4,13 @@ import { FaGithub, FaExternalLinkAlt, FaGooglePlay, FaMobile } from 'react-icons
 const Projects = () => {
     const projects = [
         {
+            title: "🌟 Clarity – AI Architecture Analysis Tool",
+            description: "A cutting-edge developer tool that instantly understands, visualizes, and audits any GitHub repository. Generates interactive dependency graphs using Dagre, summarizes architecture with Groq LLM (Llama 3.3 70B), and audits environments for secrets. Features an AI-powered code interaction chat for deep codebase exploration.",
+            tech: ["React", "FastAPI", "PostgreSQL", "Llama 3.3", "Framer Motion", "Supabase", "OAuth 2.0"],
+            github: null,
+            live: "https://clarity-t3sg.onrender.com"
+        },
+        {
             title: "🚀 CollabCode – Real-Time Collaborative Code Editor",
             description: "A full-featured browser-based collaborative code editor where multiple developers build full-stack apps together in real time. Features Monaco editor with Yjs CRDT collaboration, integrated Linux terminal, GitHub import/push, 22 programming languages with live preview, persistent team chat, and real-time cursors & presence.",
             tech: ["React", "Node.js", "MongoDB", "Socket.IO", "Yjs CRDT", "Monaco Editor", "xterm.js", "Clerk Auth", "GitHub API", "Redis"],
