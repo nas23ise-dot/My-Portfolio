@@ -8,28 +8,28 @@ const Projects = () => {
             description: "A cutting-edge developer tool that instantly understands, visualizes, and audits any GitHub repository. Generates interactive dependency graphs using Dagre, summarizes architecture with Groq LLM (Llama 3.3 70B), and audits environments for secrets. Features an AI-powered code interaction chat for deep codebase exploration.",
             tech: ["React", "FastAPI", "PostgreSQL", "Llama 3.3", "Framer Motion", "Supabase", "OAuth 2.0"],
             github: null,
-            live: "https://clarity-t3sg.onrender.com"
+            live: "https://clarity-8372.onrender.com/"
         },
         {
             title: "🚀 CollabCode – Real-Time Collaborative Code Editor",
             description: "A full-featured browser-based collaborative code editor where multiple developers build full-stack apps together in real time. Features Monaco editor with Yjs CRDT collaboration, integrated Linux terminal, GitHub import/push, 22 programming languages with live preview, persistent team chat, and real-time cursors & presence.",
             tech: ["React", "Node.js", "MongoDB", "Socket.IO", "Yjs CRDT", "Monaco Editor", "xterm.js", "Clerk Auth", "GitHub API", "Redis"],
             github: "https://github.com/NavDevs/CollabCode",
-            live: "https://collabcode-ihw7.onrender.com"
+            live: "https://collabcode-hu9d.onrender.com/"
         },
         {
             title: "⏱️ CronDash – Visual Cron Job Manager",
             description: "A web-based cron job management system with a terminal-style interface. Schedule, monitor, and manage automated HTTP tasks with precision. Features cron expression scheduling, execution history with status logs, Slack/email/webhook failure alerts, and a 'keep-alive' system for Render free-tier apps.",
             tech: ["Next.js 16", "TypeScript", "React 19", "Tailwind CSS", "PostgreSQL", "Prisma", "JWT Auth", "Docker", "node-cron"],
             github: "https://github.com/NavDevs/CronDash",
-            live: "https://cron-dash.onrender.com"
+            live: "https://crondash-18xd.onrender.com/"
         },
         {
             title: "🔍 DPI Engine – Deep Packet Inspection System",
             description: "A multi-threaded Deep Packet Inspection system that analyzes network traffic to identify applications, block unwanted traffic, and provide detailed insights. Features SNI extraction from TLS handshakes, flow-based blocking, load-balanced thread architecture, and a Flask web dashboard.",
             tech: ["C++17", "Python", "Flask", "Multi-threading", "TLS/SNI", "PCAP", "Network Protocols"],
             github: "https://github.com/NavDevs/DPI-Engine",
-            live: "https://packet-analyzer-iota.vercel.app"
+            live: "https://packet-analyzer-virid.vercel.app/"
         },
         {
             title: "🚑 EV Priority System – ML Traffic Control",
