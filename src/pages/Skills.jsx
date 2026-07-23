@@ -18,6 +18,7 @@ const Skills = () => {
             skills: [
                 { name: "React.js", level: 88 },
                 { name: "Next.js", level: 80 },
+                { name: "Framer Motion", level: 82 },
                 { name: "HTML5", level: 95 },
                 { name: "CSS3", level: 92 },
                 { name: "Tailwind CSS", level: 85 },
@@ -29,11 +30,13 @@ const Skills = () => {
             skills: [
                 { name: "Node.js", level: 82 },
                 { name: "Express.js", level: 80 },
+                { name: "FastAPI", level: 85 },
                 { name: "Socket.IO", level: 85 },
                 { name: "RESTful APIs", level: 85 },
                 { name: "Mongoose", level: 80 },
                 { name: "Prisma", level: 78 },
                 { name: "JWT Authentication", level: 78 },
+                { name: "Supabase", level: 80 },
                 { name: "Firebase", level: 75 }
             ]
         },
@@ -249,7 +252,10 @@ const Skills = () => {
                         "Cron & Task Scheduling",
                         "Docker & Containerization",
                         "Network Security & DPI",
-                        "Multi-threaded Concurrency"
+                        "Multi-threaded Concurrency",
+                        "Software Architecture Analysis",
+                        "Graph Visualization (Dagre)",
+                        "Security Auditing"
                     ].map((skill, idx) => (
                         <motion.span
                             key={idx}
