@@ -15,7 +15,7 @@ const Projects = () => {
             description: "A full-featured browser-based collaborative code editor where multiple developers build full-stack apps together in real time. Features Monaco editor with Yjs CRDT collaboration, integrated Linux terminal, GitHub import/push, 22 programming languages with live preview, persistent team chat, and real-time cursors & presence.",
             tech: ["React", "Node.js", "MongoDB", "Socket.IO", "Yjs CRDT", "Monaco Editor", "xterm.js", "Clerk Auth", "GitHub API", "Redis"],
             github: "https://github.com/NavDevs/CollabCode",
-            live: "https://collabcode-hu9d.onrender.com/"
+            live: "https://collabcode-front-end.onrender.com/"
         },
         {
             title: "⏱️ CronDash – Visual Cron Job Manager",
