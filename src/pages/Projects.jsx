@@ -8,7 +8,7 @@ const Projects = () => {
             description: "A cutting-edge developer tool that instantly understands, visualizes, and audits any GitHub repository. Generates interactive dependency graphs using Dagre, summarizes architecture with Groq LLM (Llama 3.3 70B), and audits environments for secrets. Features an AI-powered code interaction chat for deep codebase exploration.",
             tech: ["React", "FastAPI", "PostgreSQL", "Llama 3.3", "Framer Motion", "Supabase", "OAuth 2.0"],
             github: null,
-            live: "https://clarity-8372.onrender.com/"
+            live: "https://clarity-frontend-rx0h.onrender.com/"
         },
         {
             title: "🚀 CollabCode – Real-Time Collaborative Code Editor",
