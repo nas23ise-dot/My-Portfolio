@@ -22,7 +22,7 @@ const Projects = () => {
             description: "A web-based cron job management system with a terminal-style interface. Schedule, monitor, and manage automated HTTP tasks with precision. Features cron expression scheduling, execution history with status logs, Slack/email/webhook failure alerts, and a 'keep-alive' system for Render free-tier apps.",
             tech: ["Next.js 16", "TypeScript", "React 19", "Tailwind CSS", "PostgreSQL", "Prisma", "JWT Auth", "Docker", "node-cron"],
             github: "https://github.com/NavDevs/CronDash",
-            live: "https://crondash-18xd.onrender.com/"
+            live: "https://crondash-rx3s.onrender.com/"
         },
         {
             title: "🔍 DPI Engine – Deep Packet Inspection System",
