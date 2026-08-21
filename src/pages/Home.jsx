@@ -178,7 +178,7 @@ const Home = () => {
                     transition={{ delay: 0.9 }}
                     style={{ marginTop: '3rem', display: 'flex', gap: '2rem', justifyContent: 'center', fontSize: '1.6rem' }}
                 >
-                    <a href="https://github.com/nas23ise-dot" target="_blank" rel="noopener noreferrer"
+                    <a href="https://github.com/NavDevs" target="_blank" rel="noopener noreferrer"
                         style={{ 
                             color: 'var(--text-secondary)', 
                             transition: 'all 0.3s',

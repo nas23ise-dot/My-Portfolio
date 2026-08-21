@@ -50,14 +50,14 @@ const Projects = () => {
             title: "🎓 InternAI – AI Internship Platform",
             description: "An AI-powered internship discovery and application tracking platform for students, featuring real-time job search, AI career assistant, and profile management with Firebase integration.",
             tech: ["React", "Firebase", "Node.js", "AI Integration", "Real-time"],
-            github: "https://github.com/nas23ise-dot/InternAI",
+            github: "https://github.com/NavDevs/InternAI",
             live: "https://ai-internship-frontend.onrender.com"
         },
         {
             title: "⚡ ExplainX – AI Text Explainer",
             description: "A powerful Chrome Extension that provides instant AI-powered explanations for any text on the web. Select any text, click ExplainX, and get clear, concise explanations in seconds.",
             tech: ["Chrome Extension", "JavaScript", "AI Integration", "HTML", "CSS"],
-            github: "https://github.com/navdevs/ExplainX",
+            github: "https://github.com/NavDevs/ExplainX",
             live: "https://navdevs.github.io/ExplainX/"
         },
 
@@ -73,7 +73,7 @@ const Projects = () => {
             title: "🛡️ Safe City – Safety Companion App",
             description: "A comprehensive safety application with real-time GPS tracking, emergency SOS alerts, 3-layer protection system, and community volunteer network. Features cyber & physical emergency response.",
             tech: ["Flutter", "Dart", "Google Maps", "Firebase", "Provider"],
-            github: "https://github.com/nas23ise-dot/SafeCity",
+            github: "https://github.com/NavDevs/SafeCity",
             live: "https://safe-cty.netlify.app/",
             apk: "https://drive.google.com/drive/folders/1Osf8jMaN_GrT0kpfCPdcXufKZ2qOa4-k?usp=sharing"
         },
